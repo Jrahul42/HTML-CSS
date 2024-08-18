@@ -1,0 +1,87 @@
+
+:root{
+   --yellow: #ffbb30;
+   --balck:  #242424;
+   --greay:  #818181;
+   --white: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    height: 100%;
+    background-color: var(--yellow);
+    font-family: "Oswald" , "sans-serif";
+}
+
+.banner{
+    background-color: var(--white);
+    padding-bottom: 30px;
+    box-shadow:0px 5px 10px rgba(0,0,0,0.4) ;
+}
+
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     /* or margin: 0 auto; */
+    height: 150px;
+    width: 150px;
+    margin: 30px auto;
+    /*or  margin-top: 30px; */
+    /*  or margin-bottom: 30px; */
+}
+
+h1{
+    font-size: 90px;
+    text-align: center;
+    color: var(--balck);   
+}
+
+p{
+    color: var(--greay);
+    text-align: right;
+    font-size: 30px;
+    font-weight: 400;
+    margin-right: 20%;
+}
+
+.textcontainer{
+       width: 60%;
+       display: block;
+       margin: 0 auto;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+1)root:
+  >it is define in top because it conncted to all html, body, and all element. so whatever you define in root its available to all element. its called as global element. if you want to difine it for special to any element like div and all it has seperate syntax
+  > -- is a format to define color , semicolumn is must
+2)*{} 
+  > this is for to reset all extra margin and padding given by browser 
+3)Body:
+  >height - to use 100% of page. if you dont define it shrink page only for content
+  >var(--yellow); - defining variable
+4)banner
+  > box shadow is used 1st valu xaxis 2nd yaxis 3rd is blur readius and if fourt used its called blur-radiur.
+  > color is also used here we used rgba a means simply oppecity, it makes less or more  brighter color
+5)Textcontainer- 
+  >Targettting textcontainer for moving element accurately 
+ */
